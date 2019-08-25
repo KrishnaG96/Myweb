@@ -5,7 +5,7 @@ body {
 .jumbotron
 {
   text-align: center;
-  background-position: center;
+  background-position: center center;
   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("ironman.jpg");
   background-size: cover;
   margin-top: 50px;
@@ -13,7 +13,7 @@ body {
   color: white;
 }
 
-#section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+#section1 {padding-top:50px;height:auto;color: #fff; background-color: #1E88E5;}
 #section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
 #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
 #section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
@@ -22,5 +22,38 @@ body {
 #section1,#section2,#section3
 {
   text-align: center;
-  
+
+}
+#section1 .image img
+{
+  width: 200px;
+  max-height: 200px;
+  border-radius: 150px;
+
+}
+#section1 .content
+{
+
+}
+#section1  span
+{
+  color: orange;
+}
+.progress-bar
+{
+background:green;
+
+}
+.progress-container {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 10px;
+  background: #ccc;
+}
+
+.progress-barr {
+  height: 10px;
+  background: #4caf50;
+  width: 0%;
 }
