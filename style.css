@@ -78,4 +78,9 @@ background:green;
 {
 margin-top: 70px;
 }
+.modal-header
+{
+background-color: none;
+  color: #ff9800;
+}
 /*modal styles ends*/
