@@ -1,4 +1,7 @@
 $("document").ready(function() {
+ 
+    $(".modal").modal('show');
+
   var type = $("#type").text();
   console.log(type);
   var i = 0;
